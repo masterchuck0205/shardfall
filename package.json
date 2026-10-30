@@ -1,0 +1,15 @@
+{
+  "name": "shardfall-online",
+  "version": "1.0.0",
+  "description": "Shardfall - 2D fighting game with online 1v1 (Node.js + Socket.IO relay)",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js", "test": "node test/relay-test.js" },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": { "socket.io-client": "^4.7.5" }
+}
